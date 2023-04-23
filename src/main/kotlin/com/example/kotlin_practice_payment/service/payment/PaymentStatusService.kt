@@ -1,4 +1,4 @@
-package com.example.kotlin_practice_payment.service
+package com.example.kotlin_practice_payment.service.payment
 
 import com.example.kotlin_practice_payment.OrderStatus
 import com.example.kotlin_practice_payment.TransactionStatus

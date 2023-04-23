@@ -1,8 +1,8 @@
 package com.example.kotlin_practice_payment.controller
 
-import com.example.kotlin_practice_payment.service.PayServiceRequest
-import com.example.kotlin_practice_payment.service.PayServiceResponse
-import com.example.kotlin_practice_payment.service.PaymentService
+import com.example.kotlin_practice_payment.service.payment.PayServiceRequest
+import com.example.kotlin_practice_payment.service.payment.PayServiceResponse
+import com.example.kotlin_practice_payment.service.payment.PaymentService
 import jakarta.validation.Valid
 import jakarta.validation.constraints.Min
 import jakarta.validation.constraints.NotBlank

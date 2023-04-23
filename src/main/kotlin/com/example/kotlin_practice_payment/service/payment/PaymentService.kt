@@ -1,7 +1,8 @@
-package com.example.kotlin_practice_payment.service
+package com.example.kotlin_practice_payment.service.payment
 
 import com.example.kotlin_practice_payment.exception.ErrorCode
 import com.example.kotlin_practice_payment.exception.PaymentException
+import com.example.kotlin_practice_payment.service.AccountService
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime
 

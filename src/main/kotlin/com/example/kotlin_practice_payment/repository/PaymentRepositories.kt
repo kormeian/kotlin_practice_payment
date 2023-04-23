@@ -15,5 +15,10 @@ interface PaymentUserRepository : JpaRepository<PaymentUser, Long> {
 interface OrderRepository : JpaRepository<Order, Long>
 
 interface OrderTransactionRepository : JpaRepository<OrderTransaction, Long> {
-    fun findByOrderAndTransactionType(order: Order, transactionType: TransactionType): List<OrderTransaction>
+    fun findByOrderAndTransactionType(
+        order: Order,
+        transactionType: TransactionType
+    ): List<OrderTransaction>
+
+    fun findByTransactionId(transactionId: String): OrderTransaction?
 }

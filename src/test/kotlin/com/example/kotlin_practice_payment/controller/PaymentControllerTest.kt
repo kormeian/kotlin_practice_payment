@@ -1,14 +1,13 @@
 package com.example.kotlin_practice_payment.controller
 
-import com.example.kotlin_practice_payment.service.PayServiceResponse
-import com.example.kotlin_practice_payment.service.PaymentService
+import com.example.kotlin_practice_payment.service.payment.PayServiceResponse
+import com.example.kotlin_practice_payment.service.payment.PaymentService
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.ninjasquad.springmockk.MockkBean
 import io.mockk.every
 import org.hamcrest.core.IsEqual.equalTo
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import org.mockito.ArgumentMatchers.any
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.http.MediaType
