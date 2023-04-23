@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import java.time.LocalDateTime
 
-@FeignClient(name = "account-adapter", url = "http://localhost:8080")
+@FeignClient(name = "account-adapter", url = "http://localhost:8090")
 interface AccountAdapter {
     @PostMapping("/transaction/use")
     fun useAccount(

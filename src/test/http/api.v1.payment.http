@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/v1/pay
+Content-Type: application/json
+
+{
+  "payUserId": "p1",
+  "amount": 1000,
+  "merchantTransactionId": "{{$uuid}}",
+  "orderTitle": "Test order"
+}
+
+###
